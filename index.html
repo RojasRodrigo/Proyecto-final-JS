@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Súper Disfraces 🦕</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./imagenes/asa2.jpg">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!--JS-->
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/card.js"></script>
+    <script defer src="./js/carrito.js"></script>
+</head>
+
+
+<body>
+
+    <!--COMIENZO DEL HEADER-->
+    <header>
+        <nav>
+
+            <div class="titulo">
+                <h2 class="primero">SUPER </h2>
+                <h2 class="segundo">DISFRACES</h2>
+            </div>
+
+            <ul class="menu">
+                <li class="menuItem">
+                    <a href="index.html" style="text-decoration: none;">
+                        <div class="menuLink">
+                            Inicio
+                            <img class="headerPng" loading="lazy" src="./imagenes/casita2.png" alt="Imagen de inicio">
+                        </div>
+                    </a>
+                </li>
+
+                <li class="menuItem">
+                    <a href="./paginas/buscar.html" style="text-decoration: none;">
+                        <div class="menuLink">
+                            Buscar
+                            <img class="headerPng" loading="lazy" src="./imagenes/searcheando.png" alt="Imagen de lupa">
+                        </div>
+                    </a>
+                </li>
+
+                <li class="menuItem">
+                    <a href="#carrito-id" style="text-decoration: none;">
+                        <div id="ver-carrito" class="menuLink">
+                            Carrito
+                            <div class="carrito1"></div>
+                            <div class="carrito2"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="usuario">
+                <img class="imagenUsuario" loading="lazy" src="./imagenes/user-yellow.png" alt="Imagen de usuario">
+            </div>
+
+        </nav>
+    </header>
+    <!--FIN DEL HEADER-->
+
+
+
+
+
+    <!--COMIENZO DEL CARRUSEL-->
+    <div id="carrusel">
+
+        <!--Imágenes-->
+        <ul class="imagenes">
+            <li id="imagen1">
+                <img loading="lazy" src=".//imagenes/1.jpeg" alt="Imagen de disfraz de dinosaurio para la portada">
+            </li>
+            <li id="imagen2">
+                <img loading="lazy" src="./imagenes/8.jpeg" alt="Imagen de disfraz de dinosaurio para la portada">
+            </li>
+            <li id="imagen3">
+                <img loading="lazy" src="./imagenes/5.jpeg" alt="Imagen de disfraz de dinosaurio para la portada">
+            </li>
+        </ul>
+
+
+        <!--Indicadores de posición-->
+        <div class="indicadores">
+            <a class="indicador activo" href="#imagen1"></a>
+            <a class="indicador" href="#imagen2"></a>
+            <a class="indicador" href="#imagen3"></a>
+        </div>
+
+    </div>
+    <!--FIN DEL CARRUSEL-->
+
+
+
+
+
+    <!--COMIENZO DE LISTA DE PRODUCTOS-->
+    <h1 class="tituloProductos">¡Aquí puedes ver una muestra de nuestro catálogo de disfraces!</h1>
+    <div id="seccion-productos" class="seccionProductos">
+        <!--Acá inserto las cards mediante Javascript-->
+    </div>
+
+    <div class="divTituloVerMas">
+        <a href="./paginas/buscar.html" style="text-decoration: none;">
+            <h2 class="tituloVerMas">¡Ver más!</h2>
+        </a>
+    </div>
+    <!--FIN DE LISTA DE PRODUCTOS-->
+
+
+
+
+
+    <!--COMIENZO DEL CARRUSEL DE VIDEOS-->
+    <div id="carrusel-videos">
+
+        <!--Videos-->
+        <ul class="videos">
+            <li>
+                <iframe src="https://www.youtube.com/embed/n5oM0c5tetA" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe src="https://www.youtube.com/embed/SmL4IG1P1Bs" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe src="https://www.youtube.com/embed/F6YbSQ64Z4w" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe src="https://www.youtube.com/embed/PvATj7evyeU" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </li>
+        </ul>
+
+
+        <!--Indicadores de posición-->
+        <div class="flechas">
+            <img id="flecha-izquierda" class="flechaIzquierda" loading="lazy" src="./imagenes/flechaizquierda.png"
+                alt="Imagen de flecha izquierda">
+            <img id="flecha-derecha" class="flechaDerecha" loading="lazy" src="./imagenes/flechaderecha.png"
+                alt="Imagen de flecha derecha">
+        </div>
+
+    </div>
+    <!--FIN DEL CARRUSEL DE VIDEOS-->
+
+
+
+
+
+    <!--COMIENZO DEL FOOTER-->
+    <!--El css lo puse en index.scss-->
+    <div class="footer">
+        <div class="footerContenido">
+            <h2 class="footerTitulo">Desarrollado por Rodrigo Rojas</h2>
+            <a href="https://github.com/RojasRodrigo" style="text-decoration: none;" target="_blank">
+                <img class="footerImagen" loading="lazy" src="./imagenes/github4.png" alt="Imagen de github">
+            </a>
+        </div>
+    </div>
+    <!--FIN DEL FOOTER-->
+
+
+
+
+
+    <!--COMIENZO DEL MODAL DEL CARRITO-->
+    <div id="carrito-id" class="carritoClass">
+        <!--Acá inserto el modal para el carrito-->
+    </div>
+    <!--FIN DEL MODAL DEL CARRITO-->
+
+
+
+
+
+</body>
+
+</html>
